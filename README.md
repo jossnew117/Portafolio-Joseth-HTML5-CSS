@@ -6,4 +6,4 @@
 - Aquí encontraremos las bases solidas del HTML en combinacion con el CSS utilizando comandos para crear el esqueleto de la página web usando "!" también aplicamos cambios en el meta, tanto en charset, así como en el content para ajustar la escala de visualización de la interfaz y con Charset="UTF-8" un codificador de caracteres que incluimos un parametro de caracteres para la comprensión del viewer de la web.
 
 - También se agrego en el cuerpo del HTML (body); asi como tambien agregando links e inmegenes.
-- En CSS trabajamos tanto el color del fondo con Background-color; de las letras color en el body así como tambien el uso de span para cambiar el color de las letras ( aunque tambien se puede usar strong
+- En CSS trabajamos tanto el color del fondo con Background-color; de las letras color en el body así como tambien el uso de span para cambiar el color de las letras ( aunque tambien se puede usar strong)
