@@ -52,6 +52,7 @@ img {
 .Enlaces {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 .presentacion_boton_links {
     width: 100px;
@@ -64,4 +65,8 @@ img {
     font-weight: 900;
     text-decoration: none;
     color: black;
+}
+
+.titulo_redes {
+    color: aliceblue;
 }
