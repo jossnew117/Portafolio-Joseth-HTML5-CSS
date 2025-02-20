@@ -18,22 +18,48 @@ body{
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 7%; ;
-    justify-content:space-between  ;
+    margin: 7%;
+    justify-content:space-between;
 }
 .contenido_presentacion {
-width: 500px;
+width: 700px;
 } 
 
 .titulo_principal {
-    font-size: 200%;
+    font-size: 250%;
     font-family: "Montserrat", serif;
+    color:rgb(255, 238, 0);
+    font-weight: 1200;
+    margin-bottom: 20px;
+    
 }
 .primer_parrafo {
-    font-size: 75%;
+    font-size: 100%;
     font-family: "Krona One", serif;
+    font-weight: 2300;
+    margin-bottom: 15px;
+    
 }
 img {
-    max-width: 35%;
+    max-width: 25%;
     height: auto;
+    border-radius: 15%;
+    
+}
+
+.Enlaces {
+    display: flex;
+    justify-content: space-between;
+}
+.presentacion_boton_links {
+    width: 100px;
+    background-color:#fffb16fa;
+    text-align: center;
+    padding: 10px 0 ;
+    border-radius: 20%;
+    font-family: "Montserrat", serif;
+    font-size: 100%;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
 }
