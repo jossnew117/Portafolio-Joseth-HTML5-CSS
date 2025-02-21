@@ -9,10 +9,15 @@
 
 /* trabajo cuerpo/titulo/parrafo */
 body{
-    background-color: #000000;
+    background: url("assets/Video\ fondo.gif") no-repeat center center fixed;
+    background-size:cover;
+    background-color: black;
     color: #00fff2;
     height: 100vh;
     box-sizing: border-box ;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 } 
 
 .miNombre {
