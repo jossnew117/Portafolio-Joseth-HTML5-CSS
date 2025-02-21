@@ -10,7 +10,7 @@
 /* trabajo cuerpo/titulo/parrafo */
 body{
     background: url("assets/Video\ fondo.gif") no-repeat center center fixed;
-    background-size:cover;
+    background-size:center;
     background-color: black;
     color: #00fff2;
     height: 100vh;
