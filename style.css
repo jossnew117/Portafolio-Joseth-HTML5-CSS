@@ -3,24 +3,23 @@
 * {
     padding: 0;
     margin: 0;
+   
 }
 /* elimación pre ajustes del navegador*/
 
 
 /* trabajo cuerpo/titulo/parrafo */
 body{
-    background: url("assets/Video\ fondo.gif") no-repeat center center fixed;
-    background-position-x: 3%;
-    background-position-y:30% ;
+    
     background-color: rgba(0, 0, 0, 0.995);
-    background-size: 35%;
     color: #00fff2;
     height: 100vh;
     box-sizing: border-box ;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-    
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .miNombre {
@@ -30,13 +29,16 @@ body{
     display: flex;
     align-items: center;
     margin: 7%;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .contenido_presentacion {
 width: 700px;
 display: flex;
 flex-direction: column;
-
+background: url(assets/Video\ fondo.gif);
+background-repeat: no-repeat ;
+background-position-y: 100% ;
+background-position-x: -25% ;
 } 
 
 .titulo_principal {
@@ -60,11 +62,13 @@ flex-direction: column;
 
 /*imagen/enlaces /boton de links de redes sociales/ titulo de apertura de redes*/
 .Foto_Joseth {
-    max-width: 25%;
+    max-width: 15%;
     height: auto;
     border-radius: 8px;
     border: 3px solid hwb(56 0% 0%);
 }
+
+    
 
 .Enlaces {
     display: flex;
