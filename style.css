@@ -35,6 +35,7 @@ body{
 width: 700px;
 display: flex;
 flex-direction: column;
+
 } 
 
 .titulo_principal {
@@ -57,11 +58,11 @@ flex-direction: column;
 
 
 /*imagen/enlaces /boton de links de redes sociales/ titulo de apertura de redes*/
-img {
+.Foto_Joseth {
     max-width: 25%;
     height: auto;
     border-radius: 8px;
-    
+    border: 3px solid hwb(56 0% 0%);
 }
 
 .Enlaces {
