@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* elimación pre ajustes del navegador*/
 * {
     padding: 0;
     margin: 0;
 }
+/* elimación pre ajustes del navegador*/
 
+
+/* trabajo cuerpo/titulo/parrafo */
 body{
     background-color: #000000;
-    color: rgb(0, 255, 242);
+    color: #00fff2;
     height: 100vh;
     box-sizing: border-box ;
 } 
@@ -30,7 +33,7 @@ flex-direction: column;
 .titulo_principal {
     font-size: 250%;
     font-family: "Montserrat", serif;
-    color:rgb(255, 238, 0);
+    color:hwb(56 0% 0%);
     font-weight: 1200;
     margin-bottom: 20px;
     
@@ -40,12 +43,15 @@ flex-direction: column;
     font-family: "Krona One", serif;
     font-weight: 2300;
     margin-bottom: 15px;
-    
 }
+/* elimación pre ajustes del navegador*/
+
+
+/*imagen/enlaces /boton de links de redes sociales/ titulo de apertura de redes*/
 img {
     max-width: 25%;
     height: auto;
-    border-radius: 15%;
+    border-radius: 8px;
     
 }
 
@@ -53,20 +59,34 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 .presentacion_boton_links {
-    width: 100px;
-    background-color:#fffb16fa;
+    width: 200px;
     text-align: center;
     padding: 10px 0 ;
-    border-radius: 20%;
+    border-radius: 8px;
     font-family: "Montserrat", serif;
     font-size: 100%;
-    font-weight: 900;
+    font-weight: 850;
     text-decoration: none;
-    color: black;
+    color: #00fff2;
+    border: 1px groove #00fff2;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 0px;
+}
+
+.presentacion_boton_links:hover {
+    background-color:hwb(56 0% 0% / 0.87);
+    color: rgb(240, 248, 255);
 }
 
 .titulo_redes {
     color: aliceblue;
+    font-family: "Krona One", sans-serif;
+    font-size: 13px;
+    font-weight: 400 ;
 }
