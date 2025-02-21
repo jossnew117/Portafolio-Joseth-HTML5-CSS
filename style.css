@@ -10,8 +10,10 @@
 /* trabajo cuerpo/titulo/parrafo */
 body{
     background: url("assets/Video\ fondo.gif") no-repeat center center fixed;
-    background-size:center;
-    background-color: black;
+    background-position-x: 3%;
+    background-position-y:30% ;
+    background-color: rgba(0, 0, 0, 0.995);
+    background-size: 35%;
     color: #00fff2;
     height: 100vh;
     box-sizing: border-box ;
@@ -41,6 +43,8 @@ flex-direction: column;
     color:hwb(56 0% 0%);
     font-weight: 1200;
     margin-bottom: 20px;
+    margin-top: 40px;
+    
     
 }
 .primer_parrafo {
