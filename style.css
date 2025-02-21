@@ -3,23 +3,27 @@
 * {
     padding: 0;
     margin: 0;
+    
    
 }
 /* elimación pre ajustes del navegador*/
 
 
 /* trabajo cuerpo/titulo/parrafo */
+main {
+    flex:0.95;
+
+}
+
 body{
     
     background-color: rgba(0, 0, 0, 0.995);
     color: #00fff2;
-    height: 100vh;
-    box-sizing: border-box ;
-    height: 100vh;
-    width: 100vw;
-    max-width: 100%;
+    box-sizing: border-box;
+
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .miNombre {
@@ -28,7 +32,7 @@ body{
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 7%;
+    padding: 0% 15%;
     justify-content:space-evenly;
 }
 .contenido_presentacion {
@@ -97,6 +101,7 @@ background-position-x: -25% ;
 .presentacion_boton_links:hover {
     background-color:hwb(56 0% 0% / 0.87);
     color: rgb(240, 248, 255);
+    cursor: pointer;
 }
 
 .titulo_redes {
@@ -105,3 +110,46 @@ background-position-x: -25% ;
     font-size: 13px;
     font-weight: 400 ;
 }
+ /* Footer/ pie de pagina*/
+ .footer{
+    padding: 24px;
+    background-color:  #22d4fd; ;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+    text-align: center;
+    font-family:"Montserrat", serif;
+    font-size: 24px;
+    font-weight: 400;
+    align-items: center;
+    
+ }
+ .github_footer {
+    max-width: 2%;
+    text-decoration: none;
+    
+ }
+ .footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 640
+    
+ }
+ /*Footer/ pie de pagina */
+
+ /*header*/
+ .header {
+    font-family:"Montserrat", sans serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: azure;
+    padding: 2% 0% 0% 15%;
+    
+ }
+
+ .header_menu {
+   display: flex;
+   gap: 50px;; 
+ }
+ .header_menu_link {
+
+ }
