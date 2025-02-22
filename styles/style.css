@@ -24,16 +24,17 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 .miNombre {
     color: rgb(255, 255, 255);
 }
 .presentacion {
+    padding: 3% 6% 0% 15%;
     display: flex;
     align-items: center;
-    padding: 5% 15%;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 .contenido_presentacion {
 width: 700px;
@@ -43,6 +44,7 @@ background: url(assets/Video\ fondo.gif);
 background-repeat: no-repeat ;
 background-position-y: 100% ;
 background-position-x: -25% ;
+margin-top: -25%;
 } 
 
 .titulo_principal {
@@ -70,6 +72,7 @@ background-position-x: -25% ;
     height: auto;
     border-radius: 8px;
     border: 3px solid hwb(56 0% 0%);
+    margin-top: -25% ;
 }
 
     
@@ -121,6 +124,7 @@ background-position-x: -25% ;
     font-size: 24px;
     font-weight: 400;
     align-items: center;
+    width: 100%;
     
  }
  .github_footer {
@@ -138,11 +142,8 @@ background-position-x: -25% ;
 
  /*header*/
  .header {
-    font-family:"Montserrat", sans serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: azure;
     padding: 2% 0% 0% 15%;
+    
     
  }
 
@@ -151,5 +152,9 @@ background-position-x: -25% ;
    gap: 50px;; 
  }
  .header_menu_link {
-
+    text-decoration: none;
+    color: hwb(0 100% 0% / 0.87);
+    font-weight: 450;
+    font-family: "Montserrat", sans serif ;
+    font-size: 24px;
  }
