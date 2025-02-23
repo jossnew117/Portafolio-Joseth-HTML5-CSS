@@ -40,9 +40,9 @@ body{
 width: 700px;
 display: flex;
 flex-direction: column;
-background:url(assets/gif_fondo_negro_3.gif);
+background:url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_3.gif");
 background-repeat: no-repeat ;
-background-size: contain;
+
 background-position-y: 100% ;
 background-position-x: -25% ;
 
@@ -163,7 +163,7 @@ background-position-x: -25% ;
  /*fondo about me */
  
  .presentacion_2 {
-    background: url(assets/gif_fondo_negro_1.gif);
+    background: url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_2.gif");
     padding: 3% 6% 0% 15%;
     display: flex;
     align-items: center;
@@ -175,11 +175,12 @@ background-position-x: -25% ;
     width: 700px;
     display: flex;
     flex-direction: column;
-    background:url(assets/gif_fondo_negro_2.gif);
+    background:url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_1.gif");
     background-repeat: no-repeat ;
     background-size: contain;
-    background-position-y: 100% ;
-    background-position-x: -25% ;
+    background-position-y: 50% ;
+    background-position-y: 3% ;
+     
 }
 .parrafo_Curriculum {
     font-size: 100%;
