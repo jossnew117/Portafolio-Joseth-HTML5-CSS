@@ -36,15 +36,16 @@ body{
     align-items: center;
     justify-content:space-between;
 }
-.contenido_presentacion {
+.contenido_presentacion_Home {
 width: 700px;
 display: flex;
 flex-direction: column;
-background: url(assets/Video\ fondo.gif);
+background:url(/assets/animation\ art\ GIF\ by\ xponentialdesign.gif);
 background-repeat: no-repeat ;
+background-size: contain;
 background-position-y: 100% ;
 background-position-x: -25% ;
-margin-top: -25%;
+
 } 
 
 .titulo_principal {
@@ -158,3 +159,25 @@ margin-top: -25%;
     font-family: "Montserrat", sans serif ;
     font-size: 24px;
  }
+
+ /*fondo about me */
+ 
+ .presentacion_2 {
+    background: url(/assets/sci-fi\ design\ GIF\ by\ Stephan\ Hülsen.gif);
+    padding: 3% 6% 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.contenido_presentacion_Curriculum {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background:url(/assets/animation\ art\ GIF\ by\ xponentialdesign.gif);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-position-y: 100% ;
+    background-position-x: -25% ;
+}
