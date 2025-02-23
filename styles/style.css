@@ -181,3 +181,24 @@ background-position-x: -25% ;
     background-position-y: 100% ;
     background-position-x: -25% ;
 }
+.parrafo_Curriculum {
+    font-size: 100%;
+    font-family: "Krona One", serif;
+    font-weight: 2300;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+.Estudios{
+    margin-left: 7%;
+    text-decoration: none;
+    margin-right: -20%;
+
+}
+.Certificados {
+    text-decoration: none;
+    color: hwb(0 100% 0% / 0.747);
+    font-weight: 600;
+    font-family: "Montserrat", sans serif ;
+    font-size: 24px;
+}
