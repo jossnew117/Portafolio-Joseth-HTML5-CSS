@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --color-primario: rgb(255, 255, 255);
+    --color-secundario: rgba(0, 0, 0, 0.995);
+    --color-terceario: #00fff2;
+    --color-cuaternario: hwb(56 0% 0%);
+}
 /* elimación pre ajustes del navegador*/
 * {
     padding: 0;
@@ -12,13 +20,14 @@
 /* trabajo cuerpo/titulo/parrafo */
 main {
     flex:0.95;
+    position: relative;
 
 }
 
 body{
     
     background-color: rgba(0, 0, 0, 0.995);
-    color: #00fff2;
+    color:var(--color-terceario);
     box-sizing: border-box;
 
     display: flex;
@@ -28,30 +37,26 @@ body{
 }
 
 .miNombre {
-    color: rgb(255, 255, 255);
+    color:var(--color-primario);
 }
 .presentacion {
     padding: 3% 6% 0% 15%;
     display: flex;
     align-items: center;
     justify-content:space-between;
+    gap: 85px;
 }
 .contenido_presentacion_Home {
-width: 700px;
 display: flex;
 flex-direction: column;
-background:url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_3.gif");
-background-repeat: no-repeat ;
-
-background-position-y: 100% ;
-background-position-x: -25% ;
-
+width: 50%;
 } 
 
+
 .titulo_principal {
-    font-size: 250%;
+    font-size: 2.8rem;
     font-family: "Montserrat", serif;
-    color:hwb(56 0% 0%);
+    color:var(--color-cuaternario);
     font-weight: 1200;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -59,7 +64,7 @@ background-position-x: -25% ;
     
 }
 .primer_parrafo {
-    font-size: 100%;
+    font-size: 1.5rem;
     font-family: "Krona One", serif;
     font-weight: 2300;
     margin-bottom: 15px;
@@ -69,33 +74,38 @@ background-position-x: -25% ;
 
 /*imagen/enlaces /boton de links de redes sociales/ titulo de apertura de redes*/
 .Foto_Joseth {
-    max-width: 15%;
-    height: auto;
+    max-width: 100%;
+    height:auto;
     border-radius: 8px;
-    border: 3px solid hwb(56 0% 0%);
+    border: 3px solid var(--color-cuaternario);
     margin-top: -25% ;
+    margin-left: -50%;
 }
 
-    
+.Img_Fondo_Home {
+    position: absolute;
+    top: 55%;
+    right:30%;
+    z-index: -1;
+}  
 
 .Enlaces {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 }
 .presentacion_boton_links {
-    width: 200px;
+    width: 50%;
     text-align: center;
     padding: 10px 0 ;
     border-radius: 8px;
     font-family: "Montserrat", serif;
-    font-size: 100%;
-    font-weight: 850;
+    font-weight: 600;
     text-decoration: none;
-    color: #00fff2;
-    border: 1px groove #00fff2;
+    color: var(--color-terceario);
+    border: 1px groove var(--color-terceario);
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -103,40 +113,41 @@ background-position-x: -25% ;
 }
 
 .presentacion_boton_links:hover {
-    background-color:hwb(56 0% 0% / 0.87);
-    color: rgb(240, 248, 255);
+    background-color:var(--color-cuaternario);
+    color: var(--color-primario);
     cursor: pointer;
 }
 
 .titulo_redes {
-    color: aliceblue;
+    color: var(--color-primario);
     font-family: "Krona One", sans-serif;
-    font-size: 13px;
+    font-size: 1.125rem;
     font-weight: 400 ;
 }
  /* Footer/ pie de pagina*/
  .footer{
     padding: 24px;
-    background-color:  #22d4fd; ;
-    color: rgb(0, 0, 0);
+    background-color:  var(--color-terceario); ;
+    color: var(--color-secundario);
     padding: 24px;
     text-align: center;
     font-family:"Montserrat", serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     align-items: center;
     width: 100%;
     
  }
  .github_footer {
-    max-width: 2%;
+    width: 25px;
     text-decoration: none;
     
  }
  .footer a {
     text-decoration: none;
     color: black;
-    font-weight: 640
+    font-weight: 640;
+    
     
  }
  /*Footer/ pie de pagina */
@@ -150,21 +161,22 @@ background-position-x: -25% ;
 
  .header_menu {
    display: flex;
-   gap: 50px;; 
+   gap: 50px;
  }
  .header_menu_link {
     text-decoration: none;
-    color: hwb(0 100% 0% / 0.87);
+    color: var(--color-primario);
     font-weight: 450;
     font-family: "Montserrat", sans serif ;
-    font-size: 24px;
+    font-size: 1.5rem;
  }
 
  /*fondo about me */
  
  .presentacion_2 {
     background: url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_2.gif");
-    padding: 3% 6% 0% 15%;
+    background-position: 15%;
+    padding: 15% 27% 20% 15%;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -172,7 +184,6 @@ background-position-x: -25% ;
     background-size:contain;
 }
 .contenido_presentacion_Curriculum {
-    width: 700px;
     display: flex;
     flex-direction: column;
     background:url("https://jossnew117.github.io/Portafolio-Joseth-HTML5-CSS/assets/gif_fondo_negro_1.gif");
@@ -183,7 +194,7 @@ background-position-x: -25% ;
      
 }
 .parrafo_Curriculum {
-    font-size: 100%;
+    font-size: 1.5rem;
     font-family: "Krona One", serif;
     font-weight: 2300;
     margin-bottom: 20px;
@@ -198,8 +209,92 @@ background-position-x: -25% ;
 }
 .Certificados {
     text-decoration: none;
-    color: hwb(0 100% 0% / 0.747);
+    color: var(--color-primario);
     font-weight: 600;
     font-family: "Montserrat", sans serif ;
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1250px){
+.presentacion{
+    flex-direction: column-reverse;
+}
+.Foto_Joseth {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-bottom: 1px;
+}
+
+.Img_Fondo_Home {
+    position: absolute;
+    top: 80%;
+    right:0%;
+    z-index: -1;
+ }  
+.presentacion_2{
+flex-direction: column-reverse;
+}
+.header {
+    padding: 10% 0% 0% 10%;
+}
+.header_menu {
+    display: flex;
+    gap: 50px; 
+}
+.presentacion {
+    padding: 3% 6% 0% 0%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 85px;
+}
+/*parrafo estilo*/
+.titulo_principal {
+    font-size: 1.7rem;
+    font-family: "Montserrat", serif;
+    color:var(--color-cuaternario);
+    font-weight: 1200;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.primer_parrafo {
+    font-size: 1rem;
+    font-family: "Krona One", serif;
+    font-weight: 2300;
+    margin-bottom: 15px;
+}
+.presentacion_boton_links {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0 ;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-terceario);
+    border: 1px groove var(--color-terceario);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 0px;
+    font-size: 0.7rem;
+}
+.header_menu_link {
+    text-decoration: none;
+    color: var(--color-primario);
+    font-weight: 450;
+    font-family: "Montserrat", sans serif ;
+    font-size: 1rem;
+ }
+
+}
+
+@media (max-width: 709px){
+    .Img_Fondo_Home {
+        position: absolute;
+        top: 80%;
+        right:-20%;
+        z-index: -1;
+     }  
+    
 }
