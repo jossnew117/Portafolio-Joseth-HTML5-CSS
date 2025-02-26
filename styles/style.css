@@ -46,6 +46,11 @@ body{
     justify-content:space-between;
     gap: 85px;
 }
+.contenido_presentacion {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    } 
 .contenido_presentacion_Home {
 display: flex;
 flex-direction: column;
@@ -183,6 +188,7 @@ width: 50%;
     background-repeat: no-repeat;
     background-size:contain;
 }
+
 .contenido_presentacion_Curriculum {
     display: flex;
     flex-direction: column;
@@ -199,6 +205,10 @@ width: 50%;
     font-weight: 2300;
     margin-bottom: 20px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
     
 }
 .Estudios{
@@ -250,7 +260,7 @@ flex-direction: column-reverse;
 }
 /*parrafo estilo*/
 .titulo_principal {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: "Montserrat", serif;
     color:var(--color-cuaternario);
     font-weight: 1200;
@@ -286,6 +296,19 @@ flex-direction: column-reverse;
     font-family: "Montserrat", sans serif ;
     font-size: 1rem;
  }
+ .parrafo_Curriculum {
+    font-size: 1rem;
+    font-family: "Krona One", serif;
+    font-weight: 2300;
+    margin-bottom: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 3%;
+    
+}
+
 
 }
 
@@ -297,4 +320,5 @@ flex-direction: column-reverse;
         z-index: -1;
      }  
     
+
 }
