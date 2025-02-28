@@ -79,16 +79,16 @@ width: 50%;
 
 /*imagen/enlaces /boton de links de redes sociales/ titulo de apertura de redes*/
 .Foto_Joseth {
-    max-width: 100%;
+    max-width: 25%;
+    width: 50%;
     height:auto;
     border-radius: 8px;
     border: 3px solid var(--color-cuaternario);
-    margin-top: -25% ;
-    margin-left: -50%;
+    
 }
 
 .Img_Fondo_Home {
-    position: absolute;
+    position: fixed;
     top: 55%;
     right:30%;
     z-index: -1;
@@ -197,6 +197,7 @@ width: 50%;
     background-size: contain;
     background-position-y: 50% ;
     background-position-y: 3% ;
+    
      
 }
 .parrafo_Curriculum {
@@ -207,14 +208,15 @@ width: 50%;
     text-align: justify;
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 75%;
     
     
 }
 .Estudios{
-    margin-left: 7%;
+    margin-left: 10%;
     text-decoration: none;
     margin-right: -20%;
+    text-align: justify;
 
 }
 .Certificados {
@@ -233,14 +235,10 @@ width: 50%;
     margin-top: 20%;
     margin-left: 5%;
     margin-bottom: 1px;
+    
 }
 
-.Img_Fondo_Home {
-    position: absolute;
-    top: 80%;
-    right:0%;
-    z-index: -1;
- }  
+
 .presentacion_2{
 flex-direction: column-reverse;
 }
@@ -301,24 +299,54 @@ flex-direction: column-reverse;
     font-family: "Krona One", serif;
     font-weight: 2300;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 65%;
-    margin-left: 3%;
+    margin-left:20%;
     
 }
+.presentacion {
 
-
+    margin-bottom: 20%;
 }
+
+
+.contenido_presentacion_Curriculum {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-size: 1rem;
+    width: auto;
+     
+}
+.Estudios{
+    margin-left: 10%;
+    text-decoration: none;
+    margin-right: 10%;
+}
+.Img_sFondo_Home {
+    position: absolute;
+    top: 82%;
+   margin-left: -12%;
+    z-index: -1;
+ }  
+ .contenido_presentacion {
+    width: auto;
+    } 
+.contenido_presentacion_Home {
+    width: auto;
+    margin-left: 5%;
+} 
 
 @media (max-width: 709px){
     .Img_Fondo_Home {
         position: absolute;
-        top: 80%;
-        right:-20%;
+        top: 82%;
+        right:35%;
         z-index: -1;
      }  
     
 
+}
 }
