@@ -7,3 +7,4 @@
 
 - También se agrego en el cuerpo del HTML (body); asi como tambien agregando links e inmegenes.
 - En CSS trabajamos tanto el color del fondo con Background-color; de las letras color en el body así como tambien el uso de span para cambiar el color de las letras ( aunque tambien se puede usar strong)
+- Se completaron los cursos de AluraLatam de HTML y se sigieron las rutas del curso así como otras herramientas usadas de W3Schools, CCS-tricks y MDN 
